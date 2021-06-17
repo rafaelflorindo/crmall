@@ -94,15 +94,15 @@
                         </thead>
                         <tbody>
                             <?php
-                            
+                            $i = 1;
                             foreach ($dados as $key => $value) {
                                 $date = new DateTime($value->dataNascimento);
                             ?>
                                 <tr>
-                                    <th scope="row"><?= $value->id; ?></td>
-                                    <td><?= strtoupper($value->nome); ?></td>
+                                    <th scope="row"><?= $i++; ?></td>
+                                    <td><?= $value->nome; ?></td>
                                     <td><?= $date->format('d/m/Y'); ?></td>
-                                    <td><?= strtoupper($value->cidade); ?></td>
+                                    <td><?= $value->cidade; ?></td>
                                     <td><a href="./API/views/formulario.php?id=<?= $value->id; ?>&acao=buscar"><button type="button" class="btn btn-warning btn-sm">Editar</button></a>
                                         <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#excluir<?= $value->id; ?>">Excluir</button>
                                     </td>

@@ -104,7 +104,7 @@
                                 <select name="sexo" class="form-select" aria-label="Default select example" required>
                                     <option value="Masculino" <?php if ($value->sexo == "Masculino") echo "selected"; ?>>Masculino</option>
                                     <option value="Feminino" <?php if ($value->sexo == "Feminino") echo "selected"; ?>>Feminino</option>
-                                    <option value="xxx">xxxx</option>
+                                    <option value="Outros">Outros</option>
                                 </select>
                             </div>
                         </div>
