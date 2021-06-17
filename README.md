@@ -35,6 +35,8 @@
 </ul>
 
 <h3>Como executar o projeto</h3>
-1 - Clonar o projeto em seu servidor.
-2 - Editar a classe Cliente (API/model/) e inserir os dados de conexão com o servidor de banco de dados, caso usuário e senha estejam fora do padrão.
-3 - Executar o diretorio raiz no navegador.
+<ol>
+<li>1 - Clonar o projeto em seu servidor.</li>
+<li>2 - Editar a classe Cliente (API/model/) e inserir os dados de conexão com o servidor de banco de dados, caso usuário e senha estejam fora do padrão.</li>
+<li>3 - Executar o diretorio raiz no navegador.</li>
+</ol>

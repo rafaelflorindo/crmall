@@ -177,9 +177,11 @@
                             } else {
                             ?>
                                 <button type="submit" class="btn btn-success">Cadastrar</button>
+                                <button type="reset" class="btn btn-warning">Limpar</button>
                             <?php
                             }
-                            ?>
+                            ?>                            
+                            <a href="../../index.php" class="btn btn-danger">Cancelar</a>
                         </div>
                     </div>
                 </form>
