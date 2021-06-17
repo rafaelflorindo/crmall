@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>Teste cadastro de clientes</h2>
+
+<h2>Teste cadastro de clientes</h2>
 <h3>Rafael Alves Florindo</h3>
 <h3>Objetivo:</h3>
 
@@ -30,6 +22,15 @@
 
 <h3>Envio do teste:</h3>
     - Disponibilizar o teste com o script de criação do banco de dados (ou migrations) através de um repositório no github.
-</body>
-</html>
+
+<h3>Recursos Utilizados</h3>
+<ul>
+    <li>PHP</li>
+    <li>JQUERY</li>
+    <li>PDO</li>
+    <li>Mysql</li>
+    <li>HTML</li>
+    <li>Bootstrap</li>
+    <li>Consumo API - ViaCep</li>
+</ul>
 
