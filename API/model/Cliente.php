@@ -200,18 +200,5 @@ class Cliente
     {
         return $this->cidade;
     }
-    /*
-    ":ID" => $this->getId(),
-                ":NOME" => $this->getNome(),
-                ":SEXO" => $this->getSexo(),
-                ":DATANASCIMENTO" => $this->getDataNascimento(),
-                ":CEP" => $this->getCep(),
-                ":ENDERECO" => $this->getEndereco(),
-                ":NUMERO" => $this->getNumero(),
-                ":COMPLEMENTO" => $this->getComplemento(),
-                ":BAIRRO" => $this->getBairro(),
-                ":ESTADO" => $this->getEstado(),
-                ":CIDADE" => $this->getCidade()
-
-                */
+   
 }
