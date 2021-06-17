@@ -25,16 +25,16 @@ class Cliente
             );
             $stmt->execute(
                 array(
-                    ":NOME" => $this->nome,
-                    ":SEXO" => $this->sexo,
-                    ":DATANASCIMENTO" => $this->dataNascimento,
-                    ":CEP" => $this->cep,
-                    ":ENDERECO" => $this->endereco,
-                    ":NUMERO" => $this->numero,
-                    ":COMPLEMENTO" => $this->complemento,
-                    ":BAIRRO" => $this->bairro,
-                    ":ESTADO" => $this->estado,
-                    ":CIDADE" => $this->cidade
+                    ":NOME" => $this->getNome(),
+                ":SEXO" => $this->getSexo(),
+                ":DATANASCIMENTO" => $this->getDataNascimento(),
+                ":CEP" => $this->getCep(),
+                ":ENDERECO" => $this->getEndereco(),
+                ":NUMERO" => $this->getNumero(),
+                ":COMPLEMENTO" => $this->getComplemento(),
+                ":BAIRRO" => $this->getBairro(),
+                ":ESTADO" => $this->getEstado(),
+                ":CIDADE" => $this->getCidade()
                 )
             );
             $stmt->rowCount();
